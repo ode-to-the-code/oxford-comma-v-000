@@ -1,4 +1,8 @@
 def oxford_comma(array)
+  if array.size = 1 
+    return array 
+  elsif array.size = 2
+    
   last = array.pop
   array.join(", ") << ", and " << last
   # could use if then statement to model the rules of oxford comma in the tests.
