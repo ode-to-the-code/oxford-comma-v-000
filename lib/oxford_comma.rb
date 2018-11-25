@@ -4,7 +4,7 @@ def oxford_comma(array)
    binding.pry
   if array.size = 1 
     return array[0]
-      binding.pry
+      # binding.pry
   elsif array.size = 2
     array.join("")
   else 
