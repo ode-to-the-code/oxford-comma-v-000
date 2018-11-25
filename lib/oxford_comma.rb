@@ -6,7 +6,8 @@ def oxford_comma(array)
     return array[0]
       # binding.pry
   elsif array.size == 2
-    array.join("")
+    array.insert(1, "and")
+    array.join(" ")
   else 
   last = array.pop
   array.join(", ") << ", and " << last
