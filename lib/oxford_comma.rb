@@ -2,11 +2,11 @@ def oxford_comma(array)
   if array.size = 1 
     return array 
   elsif array.size = 2
-    
+    array.join)","
   else 
   last = array.pop
   array.join(", ") << ", and " << last
   # could use if then statement to model the rules of oxford comma in the tests.
   # like don't do it if there are only two items.
-end 
+  end 
 end
